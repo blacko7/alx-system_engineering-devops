@@ -1,4 +1,4 @@
 # Executes a bash command
-exec { 'kill':
-  command => 'pkill -f killmenow',
+exec { 'pkill killmenow':
+	path => '/usr/bin:/usr/sbin:/bin'
 }
