@@ -40,8 +40,8 @@ frontend bicko007-tech-frontend
 
 backend bicko007-tech-backend
     balance roundrobin
-    server 530366-web-01 100.26.156.32 check
-    server 530366-web-02 54.152.56.255 check
+    server 530408-web-01 100.26.156.32:80 check
+    server 530408-web-02 54.152.56.255:80 check
 "
 
 # shellcheck disable=SC2154
